@@ -1,0 +1,70 @@
+<modification>
+  <id>Auto SEO Category, Product, Information</id>
+  <version>1.1.x</version>
+  <vqmver>1.1.3</vqmver>
+  <author>Mr.Anh - loagiare.com</author>
+
+  <file name="admin/view/template/common/header.tpl">
+    <operation>
+      <search position="before"><![CDATA[</head>]]></search>
+      <add><![CDATA[
+        <script type="text/javascript">
+          $(document).ready(function(){
+          
+          var keyword = $("input[name=keyword]");
+          if(!keyword.val())
+		  {
+            $("input[name^='product_description'],input[name^='category_description'],input[name='name'],input[name^='information_description'],input[name^='model']").keyup(function()
+			{
+              var SEOlink = $("input[name^='product_description'],input[name^='category_description'],input[name='name'],input[name^='information_description']").val();
+              
+			  // var SEOlink = $(this).val();
+                SEOlink = SEOlink.replace(/^\s+|\s+$/g, ''); 			// trim
+                SEOlink = SEOlink.toLowerCase();						// remove accents, swap, etc
+              var from = "ảãạàáäâấầậẩẫẻẹẽèéëêềếệểễăắằẳẵặìíïîịơởỡợờớọõỏòóöôốộồổỗđưứừựửữùúüûủụùúũñcçčlľštžýnrrdçõã·/_,:;";
+              var to   = "aaaaaaaaaaaaeeeeeeeeeeeeaaaaaaiiiiiooooooooooooooooooduuuuuuuuuuuuuuuncccllstzynrrdcoa------";
+              
+			  for (var i=0, l=from.length ; i<l ; i++)
+			  {
+                SEOlink = SEOlink.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+              }
+			  
+              SEOlink = SEOlink.replace(/[^a-z0-9( -]/g, '') 	// remove invalid chars
+			  .replace(/\(/g,"-")							 	// replace ( 
+              .replace(/\s+/g, '-') 							// collapse whitespace and replace by -
+              .replace(/-+/g, '-'); 							// collapse dashes
+              // return SEOlink;
+              
+              // model
+              if ($("input[name^='model']").length){
+
+                var model = $("input[name^='model']").val();
+                  model = model.replace('.html'); // trim
+                  model = model.toLowerCase();
+
+                for (var i=0, l=from.length ; i<l ; i++) 
+				{
+                  model = model.replace('.html');
+                }
+                model = model.replace(/[^a-z0-9 -]/g, '') 	// remove invalid chars
+                .replace(/\s+/g, '-') 						// collapse whitespace and replace by -
+                .replace(/-+/g, '-'); 						// collapse dashes
+                // return model;
+              }
+              // end model
+              
+              if (model) 
+			  {
+                keyword.val(SEOlink+'.html');
+              } else 
+			  {
+                keyword.val(SEOlink+'.html');
+              }
+            });
+          }
+        });
+          </script>
+        ]]></add>
+     </operation>
+  </file>
+</modification>

@@ -1,0 +1,44 @@
+---------- Date: 2017-02-23 05:25:09 ~ IP : ::1 ----------
+REQUEST URI : /opencart1.6/index.php?route=product/product&amp;product_id=48
+MOD DETAILS:
+   modFile   : /Applications/XAMPP/xamppfiles/htdocs/opencart1.6/vqmod/xml/share.xml
+   id        : VQMod fdf
+   version   : 1.0.0
+   vqmver    : 2.3.0
+   author    : ytyeoh
+
+File Name    : catalog/view/theme/pav_queenbeauty/template/product/product.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js"></script>
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-23 05:37:47 ~ IP : ::1 ----------
+REQUEST URI : /opencart1.6/index.php?route=product/product&amp;product_id=48
+MOD DETAILS:
+   modFile   : /Applications/XAMPP/xamppfiles/htdocs/opencart1.6/vqmod/xml/share.xml
+   id        : VQMod fdf
+   version   : 1.0.0
+   vqmver    : 2.3.0
+   author    : ytyeoh
+
+File Name    : catalog/view/theme/pav_queenbeauty/template/product/product.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <div class="addthis_default_style"><a class="addthis_button_compact"><?php echo $text_share; ?></a> <a class="addthis_button_email"></a><a class="addthis_button_print"></a> <a class="addthis_button_facebook"></a> <a class="addthis_button_twitter"></a></div>
+							<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js"></script>
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-23 06:10:49 ~ IP : ::1 ----------
+REQUEST URI : /opencart1.6/index.php?route=product/product&amp;product_id=48
+MOD DETAILS:
+   modFile   : /Applications/XAMPP/xamppfiles/htdocs/opencart1.6/vqmod/xml/share.xml
+   id        : VQMod fdf
+   version   : 1.0.0
+   vqmver    : 2.3.0
+   author    : ytyeoh
+
+File Name    : catalog/view/theme/pav_queenbeauty/template/product/product.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <div class="addthis_default_style"><a class="addthis_button_compact"><?php echo $text_share; ?></a> <a class="addthis_button_email"></a><a class="addthis_button_print"></a> <a class="addthis_button_facebook"></a> <a class="addthis_button_twitter"></a></div>
+							<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js"></script>
+----------------------------------------------------------------------
+
+

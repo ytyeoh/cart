@@ -1,0 +1,29 @@
+<modification>
+	<id>VQMod fdf</id>
+	<version>1.0.0</version>
+	<vqmver>2.3.0</vqmver>
+	<author>ytyeoh</author>
+	<file name="catalog/view/theme/pav_queenbeauty/template/product/product.tpl">
+		<operation error="abort">
+			<search position="replace"><![CDATA[<div class="addthis_default_style"><a class="addthis_button_compact"><?php echo $text_share; ?></a> <a class="addthis_button_email"></a><a class="addthis_button_print"></a> <a class="addthis_button_facebook"></a> <a class="addthis_button_twitter"></a></div>
+							<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js"></script>]]></search>
+			<add><![CDATA[
+				<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_whatsapp"></a>
+<a class="a2a_button_wechat"></a>
+<a class="a2a_button_line"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_google_plus"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+ 
+				]]></add>
+		</operation>
+	</file>
+	
+
+</modification>

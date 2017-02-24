@@ -1,0 +1,36 @@
+---------- Date: 2017-02-14 11:51:07 ~ IP : ::1 ----------
+REQUEST URI : /opencart1.6/
+MOD DETAILS:
+   modFile   : /Applications/XAMPP/xamppfiles/htdocs/opencart1.6/vqmod/xml/new_carousel.xml
+   id        : VQMod fdf
+   version   : 1.0.0
+   vqmver    : 2.3.0
+   author    : pavothemes.com
+VQModObject::parseMods - Could not resolve path for [catalog/view/theme/pav_queenbeauty/template/header.tpl] (SKIPPED)
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-14 12:17:41 ~ IP : ::1 ----------
+REQUEST URI : /opencart1.6/
+MOD DETAILS:
+   modFile   : /Applications/XAMPP/xamppfiles/htdocs/opencart1.6/vqmod/xml/new_carousel.xml
+   id        : VQMod fdf
+   version   : 1.0.0
+   vqmver    : 2.3.0
+   author    : pavothemes.com
+VQModObject::parseMods - Could not resolve path for [catalog/view/theme/pav_queenbeauty/template/header.tpl] (SKIPPED)
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-14 16:36:06 ~ IP : ::1 ----------
+REQUEST URI : /opencart1.6/
+MOD DETAILS:
+   modFile   : /Applications/XAMPP/xamppfiles/htdocs/opencart1.6/vqmod/xml/new_carousel.xml
+   id        : VQMod fdf
+   version   : 1.0.0
+   vqmver    : 2.3.0
+   author    : pavothemes.com
+VQModObject::parseMods - Could not resolve path for [catalog/view/theme/pav_queenbeauty/template/home.tpl] (SKIPPED)
+----------------------------------------------------------------------
+
+
